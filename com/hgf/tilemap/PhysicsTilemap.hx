@@ -1,11 +1,11 @@
-package com.alkevi.hgf.tilemap;
+package com.hgf.tilemap;
 
 import box2D.collision.shapes.B2PolygonShape;
 import box2D.dynamics.B2Body;
 import box2D.dynamics.B2BodyDef;
 import box2D.dynamics.B2FixtureDef;
 import box2D.dynamics.B2World;
-import com.alkevi.hgf.PhysicsState;
+import com.hgf.PhysicsState;
 import nme.Assets;
 import org.flixel.FlxCamera;
 import org.flixel.FlxGroup;

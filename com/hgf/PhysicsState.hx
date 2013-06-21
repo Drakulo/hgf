@@ -1,4 +1,4 @@
-package com.alkevi.hgf;
+package com.hgf;
 
 import box2D.collision.shapes.B2PolygonShape;
 import box2D.common.math.B2Vec2;

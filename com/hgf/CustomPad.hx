@@ -1,6 +1,6 @@
-package com.alkevi.hgf;
+package com.hgf;
 
-import com.alkevi.hgf.data.HgfAssets;
+import com.hgf.data.HgfAssets;
 import nme.Assets;
 import org.flixel.FlxButton;
 import org.flixel.FlxCamera;

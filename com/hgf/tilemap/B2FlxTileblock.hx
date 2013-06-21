@@ -1,4 +1,4 @@
-package com.alkevi.hgf.tilemap;
+package com.hgf.tilemap;
 
 import box2D.collision.shapes.B2PolygonShape;
 import box2D.dynamics.B2Body;

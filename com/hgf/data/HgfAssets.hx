@@ -1,4 +1,4 @@
-package com.alkevi.hgf.data;
+package com.hgf.data;
 
 /**
  * Haxe Game Framework assets definition.
