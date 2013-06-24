@@ -1,4 +1,4 @@
-package com.hgf.data;
+package com.hgf;
 
 /**
  * Haxe Game Framework assets definition.
@@ -8,7 +8,7 @@ package com.hgf.data;
  */
 class HgfAssets
 {
-	private static var path:String = "source/com/alkevi/hgf/data/";
+	private static var path:String = "assets/hgf/";
 	
 	public static var imgStickBase:String = path + "stick_base.png";
 	public static var imgStick:String     = path + "stick.png";
