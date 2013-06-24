@@ -44,7 +44,7 @@ class CustomPad extends FlxTypedGroup<FlxSprite>
 	/** The stick base radius */
 	private var _baseRadius:Float;
 	/** The X button */
-	private var _buttonA:FlxButton;
+	private var _buttonA:PadButton;
 	
 	private var debugText:FlxText;
 	
@@ -53,7 +53,8 @@ class CustomPad extends FlxTypedGroup<FlxSprite>
 	public var stickRight(default, null) : Bool;
 	public var stickUp(default, null)    : Bool;
 	public var stickDown(default, null)  : Bool;
-	public var buttonA(default, null)    : Bool;
+	
+	public var buttonA(buttonAState, null)    : Bool;
 	
 	// Analogic strength multiplier.
 	public var leftStrength(default, null)  : Float;
@@ -101,18 +102,16 @@ class CustomPad extends FlxTypedGroup<FlxSprite>
 		fixAndAdd(_stick);
 		
 		// Buttons
-		_buttonA = new FlxButton(0, 0);
-		_buttonA.loadGraphic(HgfAssets.imgButtonA, true, false, 110, 112);
+		_buttonA = new PadButton(HgfAssets.imgButtonA);
 		_buttonA.x = FlxG.width - _buttonA.width - _padding;
 		_buttonA.y = FlxG.height -_buttonA.height - _padding + 9; // Additionnal padding for the button shadow
-		_buttonA.onDown = buttonAPressed;
 		fixAndAdd(_buttonA);
 		
 		debugText = new FlxText(10, 10, 500, "", 16);
 		fixAndAdd(debugText);
 	}
 	
-	private function buttonAPressed()  : Void { buttonA = true; }
+	private function buttonAState() : Bool { return _buttonA.pressed; }
 	
 	/**
 	 * Fix the scroll of a sprite and add it to the group.
