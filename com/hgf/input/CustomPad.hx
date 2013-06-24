@@ -1,6 +1,6 @@
-package com.hgf;
+package com.hgf.input;
 
-import com.hgf.data.HgfAssets;
+import com.hgf.HgfAssets;
 import nme.Assets;
 import org.flixel.FlxButton;
 import org.flixel.FlxCamera;
@@ -40,7 +40,7 @@ class CustomPad extends FlxTypedGroup<FlxSprite>
 	/** Cache flag to manage stick drag */
 	private var _stickWasPressed:Bool;
 	/** The touch index moving the stick */
-	private var _touchIndex:Int;
+	private var _stickTouchIndex:Int;
 	/** The stick base radius */
 	private var _baseRadius:Float;
 	/** The X button */
@@ -48,12 +48,18 @@ class CustomPad extends FlxTypedGroup<FlxSprite>
 	
 	private var debugText:FlxText;
 	
-	// Stick input values (properties)
+	// Input values (properties)
 	public var stickLeft(default, null)  : Bool;
 	public var stickRight(default, null) : Bool;
 	public var stickUp(default, null)    : Bool;
 	public var stickDown(default, null)  : Bool;
+	public var buttonA(default, null)    : Bool;
 	
+	// Analogic strength multiplier.
+	public var leftStrength(default, null)  : Float;
+	public var rightStrength(default, null) : Float;
+	public var upStrength(default, null)    : Float;
+	public var downStrength(default, null)  : Float;
 	
 	public function new() 
 	{
@@ -63,7 +69,11 @@ class CustomPad extends FlxTypedGroup<FlxSprite>
 		stickRight = false;
 		stickUp    = false;
 		stickDown  = false;
-		_touchIndex = -1;
+		leftStrength  = 0;
+		rightStrength = 0;
+		upStrength    = 0;
+		downStrength  = 0;
+		_stickTouchIndex = -1;
 		
 		_stickWasPressed = false;
 		_padding = FlxG.width / 12;
@@ -92,14 +102,17 @@ class CustomPad extends FlxTypedGroup<FlxSprite>
 		
 		// Buttons
 		_buttonA = new FlxButton(0, 0);
-		_buttonA.loadGraphic(HgfAssets.imgButtonA, true, false, 110, 121);
+		_buttonA.loadGraphic(HgfAssets.imgButtonA, true, false, 110, 112);
 		_buttonA.x = FlxG.width - _buttonA.width - _padding;
 		_buttonA.y = FlxG.height -_buttonA.height - _padding + 9; // Additionnal padding for the button shadow
+		_buttonA.onDown = buttonAPressed;
 		fixAndAdd(_buttonA);
 		
 		debugText = new FlxText(10, 10, 500, "", 16);
 		fixAndAdd(debugText);
 	}
+	
+	private function buttonAPressed()  : Void { buttonA = true; }
 	
 	/**
 	 * Fix the scroll of a sprite and add it to the group.
@@ -119,7 +132,8 @@ class CustomPad extends FlxTypedGroup<FlxSprite>
 	 */
 	public override function update() : Void
 	{
-		super.update();
+		// Reset button input
+		buttonA = false;
 		
 		var point:FlxPoint = new FlxPoint();
 		var actionDetected:Bool = false;
@@ -135,11 +149,14 @@ class CustomPad extends FlxTypedGroup<FlxSprite>
 			for (j in 0...FlxG.touchManager.touches.length)
 			{
 				var touch:FlxTouch = FlxG.touchManager.touches[j];
-				if (_touchIndex < 0 || _touchIndex == j)
+				if (_stickTouchIndex < 0 || _stickTouchIndex == j)
 				{
-					_touchIndex = j;
 					touch.getScreenPosition(null, point);
-					actionDetected = updateStick(point, touch.pressed()) || actionDetected;
+					if (_stick.overlapsPoint(point))
+					{
+						_stickTouchIndex = j;
+					}
+					actionDetected = updateStick(point, touch.pressed()) || _stickWasPressed;
 				}
 			}
 		#end
@@ -150,6 +167,7 @@ class CustomPad extends FlxTypedGroup<FlxSprite>
 		if (!actionDetected)
 		{
 			_stickWasPressed = false;
+			_stickTouchIndex = -1;
 			// Reset stick position
 			_stick.x = _defaultStickX;
 			_stick.y = _defaultStickY;
@@ -158,6 +176,8 @@ class CustomPad extends FlxTypedGroup<FlxSprite>
 		}
 		
 		computeInput();
+		
+		super.update();
 	}
 	
 	/**
@@ -170,28 +190,40 @@ class CustomPad extends FlxTypedGroup<FlxSprite>
 		stickRight = false;
 		stickUp    = false;
 		stickDown  = false;
+		leftStrength  = 0;
+		rightStrength = 0;
+		upStrength    = 0;
+		downStrength  = 0;
+		
+		// Compute X and Y deltas for analogic strength
+		var xDelta:Float = Math.abs(_stickBaseCenter.x - _stickCenter.x);
+		var yDelta:Float = Math.abs(_stickBaseCenter.y - _stickCenter.y);
 		
 		var tolerance:Float = 15;
 		if (_stickBaseCenter.y - _stickCenter.y > tolerance)
 		{
 			// Up
 			stickUp = true;
+			upStrength = yDelta / _baseRadius;
 		}
 		else if (_stickCenter.y - _stickBaseCenter.y > tolerance)
 		{
 			// Down
 			stickDown = true;
+			downStrength = yDelta / _baseRadius;
 		}
 		
 		if (_stickBaseCenter.x - _stickCenter.x > tolerance)
 		{
 			// Left
 			stickLeft = true;
+			leftStrength = xDelta / _baseRadius;
 		}
 		else if (_stickCenter.x - _stickBaseCenter.x > tolerance)
 		{
 			// Right
 			stickRight = true;
+			rightStrength = xDelta / _baseRadius;
 		}
 	}
 	
