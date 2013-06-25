@@ -7,6 +7,7 @@ import org.flixel.FlxCamera;
 import org.flixel.FlxG;
 import org.flixel.FlxObject;
 import org.flixel.FlxPoint;
+import org.flixel.FlxRect;
 import org.flixel.FlxText;
 import org.flixel.FlxTypedGroup;
 import org.flixel.FlxSprite;
@@ -39,8 +40,8 @@ class CustomPad extends FlxTypedGroup<FlxSprite>
 	private var _stickCenter:FlxPoint;
 	/** Cache flag to manage stick drag */
 	private var _stickWasPressed:Bool;
-	/** The touch index moving the stick */
-	private var _stickTouchIndex:Int;
+	/** stick touch detection rectangle */
+	private var _stickDetectionRect:FlxObject;
 	/** The stick base radius */
 	private var _baseRadius:Float;
 	/** The X button */
@@ -74,7 +75,6 @@ class CustomPad extends FlxTypedGroup<FlxSprite>
 		rightStrength = 0;
 		upStrength    = 0;
 		downStrength  = 0;
-		_stickTouchIndex = -1;
 		
 		_stickWasPressed = false;
 		_padding = FlxG.width / 12;
@@ -109,6 +109,9 @@ class CustomPad extends FlxTypedGroup<FlxSprite>
 		
 		debugText = new FlxText(10, 10, 500, "", 16);
 		fixAndAdd(debugText);
+		
+		_stickDetectionRect = new FlxObject(0, FlxG.height / 2, FlxG.width / 2, FlxG.height / 2);
+		_stickDetectionRect.scrollFactor.x = _stickDetectionRect.scrollFactor.y = 0;
 	}
 	
 	private function buttonAState() : Bool { return _buttonA.pressed; }
@@ -126,6 +129,11 @@ class CustomPad extends FlxTypedGroup<FlxSprite>
 		add(o);
 	}
 	
+	public override function draw() : Void
+	{
+		super.draw();
+		_stickDetectionRect.draw();
+	}
 	/**
 	 * Update method.
 	 */
@@ -138,24 +146,28 @@ class CustomPad extends FlxTypedGroup<FlxSprite>
 		var actionDetected:Bool = false;
 		
 		// Handle mouse (for debug)
-		#if !FLX_NO_MOUSE
+		#if !android
+		if (FlxG.mouse.pressed())
+		{
 			FlxG.mouse.getScreenPosition(null, point);
-			actionDetected = updateStick(point, FlxG.mouse.pressed());
+			updateStick(point);
+			actionDetected = true;
+		}
 		#end
 		
 		// Handle touch
-		#if !FLX_NO_TOUCH
+		#if android
 			for (j in 0...FlxG.touchManager.touches.length)
 			{
 				var touch:FlxTouch = FlxG.touchManager.touches[j];
-				if (_stickTouchIndex < 0 || _stickTouchIndex == j)
+				touch.getScreenPosition(null, point);
+				
+				// Check if the touched point is near the last touched stick point
+				if (_stickDetectionRect.x <= point.x && point.x <= (_stickDetectionRect.x + _stickDetectionRect.width)
+					&& _stickDetectionRect.y <= point.y && (_stickDetectionRect.y + _stickDetectionRect.height) >= point.y)
 				{
-					touch.getScreenPosition(null, point);
-					if (_stick.overlapsPoint(point))
-					{
-						_stickTouchIndex = j;
-					}
-					actionDetected = updateStick(point, touch.pressed()) || _stickWasPressed;
+					updateStick(point);
+					actionDetected = true;
 				}
 			}
 		#end
@@ -165,8 +177,7 @@ class CustomPad extends FlxTypedGroup<FlxSprite>
 		
 		if (!actionDetected)
 		{
-			_stickWasPressed = false;
-			_stickTouchIndex = -1;
+			//_stickWasPressed = false;
 			// Reset stick position
 			_stick.x = _defaultStickX;
 			_stick.y = _defaultStickY;
@@ -229,22 +240,15 @@ class CustomPad extends FlxTypedGroup<FlxSprite>
 	/**
 	 * Update the stick position.
 	 * 
-	 * @param	point   : The touched poitn
-	 * @param	pressed : The touch flag
-	 * @return true if the stick was moved
+	 * @param	point   : The touched point
 	 */
-	private function updateStick(point:FlxPoint, pressed:Bool) : Bool
+	private function updateStick(point:FlxPoint) : Void
 	{
-		if (pressed && (_stick.overlapsPoint(point) || _stickWasPressed))
-		{
-			_stick.x = point.x - _stickHalfWidth;
-			_stick.y = point.y - _stickHalfHeight;
-			_stickWasPressed = true;
-			_stickCenter.x = _stick.x + _stick.width / 2;
-			_stickCenter.y = _stick.y + _stick.height / 2;
-			return true;
-		}
-		return false;
+		_stick.x = point.x - _stickHalfWidth;
+		_stick.y = point.y - _stickHalfHeight;
+		//_stickWasPressed = true;
+		_stickCenter.x = _stick.x + _stick.width / 2;
+		_stickCenter.y = _stick.y + _stick.height / 2;
 	}
 	
 	/**

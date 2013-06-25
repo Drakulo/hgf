@@ -90,6 +90,8 @@ class InputBridge
 		{
 			downStrength = 1;
 		}
+		
+		actionA = FlxG.keys.SPACE;
 	}
 	
 	/**
