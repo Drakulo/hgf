@@ -13,4 +13,5 @@ class HgfAssets
 	public static var imgStickBase:String = path + "stick_base.png";
 	public static var imgStick:String     = path + "stick.png";
 	public static var imgButtonA:String   = path + "button_a.png";
+	public static var imgButtonB:String   = path + "button_b.png";
 }

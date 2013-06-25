@@ -28,12 +28,12 @@
       <stop
          id="stop7638"
          offset="1"
-         style="stop-color:#ff2d2d;stop-opacity:1;" />
+         style="stop-color:#ff7979;stop-opacity:1;" />
     </linearGradient>
     <linearGradient
        id="linearGradient7526">
       <stop
-         style="stop-color:#9c0000;stop-opacity:1;"
+         style="stop-color:#780000;stop-opacity:1;"
          offset="0"
          id="stop7528" />
       <stop
@@ -53,12 +53,7 @@
        inkscape:collect="always"
        xlink:href="#pattern6771"
        id="pattern6784"
-       patternTransform="translate(144,948.36218)" />
-    <pattern
-       inkscape:collect="always"
-       xlink:href="#pattern6677"
-       id="pattern6695"
-       patternTransform="matrix(4.75,0,0,3.5,245,982.36217)" />
+       patternTransform="translate(350,957.36218)" />
     <linearGradient
        id="linearGradient3868">
       <stop
@@ -86,15 +81,6 @@
          id="stop3802" />
     </linearGradient>
     <linearGradient
-       y2="1040.7275"
-       x2="87.78846"
-       y1="956.11218"
-       x1="19.038462"
-       gradientUnits="userSpaceOnUse"
-       id="linearGradient3835"
-       xlink:href="#linearGradient3798"
-       inkscape:collect="always" />
-    <linearGradient
        inkscape:collect="always"
        xlink:href="#linearGradient3868"
        id="linearGradient3866"
@@ -112,54 +98,6 @@
        id="linearGradient3894"
        xlink:href="#linearGradient3798"
        inkscape:collect="always" />
-    <pattern
-       patternUnits="userSpaceOnUse"
-       width="4"
-       height="4"
-       patternTransform="translate(245,982.36218)"
-       id="pattern6677">
-      <g
-         id="g6670"
-         transform="translate(-245,-982.36218)">
-        <rect
-           style="fill:#323232;fill-opacity:1;fill-rule:nonzero;stroke:none"
-           id="rect6660"
-           width="1"
-           height="1"
-           x="245"
-           y="982.36218"
-           ry="0" />
-        <rect
-           style="fill:#323232;fill-opacity:1;fill-rule:nonzero;stroke:none"
-           id="rect6662"
-           width="1"
-           height="1"
-           x="248"
-           y="982.36218" />
-        <rect
-           style="fill:#323232;fill-opacity:1;fill-rule:nonzero;stroke:none"
-           id="rect6664"
-           width="1"
-           height="1"
-           x="248"
-           y="985.36218" />
-        <rect
-           style="fill:#323232;fill-opacity:1;fill-rule:nonzero;stroke:none"
-           id="rect6666"
-           width="1"
-           height="1"
-           x="245"
-           y="985.36218" />
-        <rect
-           style="fill:#2b2c31;fill-opacity:1;fill-rule:nonzero;stroke:none"
-           id="rect6668"
-           width="2"
-           height="2"
-           x="246"
-           y="983.36218"
-           ry="0" />
-      </g>
-    </pattern>
     <pattern
        patternUnits="userSpaceOnUse"
        width="5"
@@ -203,35 +141,6 @@
          id="rect6760"
          style="fill:#36393e;fill-opacity:0.19607843;fill-rule:nonzero;stroke:none" />
     </pattern>
-    <linearGradient
-       y2="1040.7275"
-       x2="87.78846"
-       y1="956.11218"
-       x1="19.038462"
-       gradientUnits="userSpaceOnUse"
-       id="linearGradient3835-0"
-       xlink:href="#linearGradient3798-9"
-       inkscape:collect="always" />
-    <linearGradient
-       id="linearGradient3798-9">
-      <stop
-         style="stop-color:#4d4d4d;stop-opacity:1;"
-         offset="0"
-         id="stop3800-2" />
-      <stop
-         style="stop-color:#121212;stop-opacity:1;"
-         offset="1"
-         id="stop3802-4" />
-    </linearGradient>
-    <linearGradient
-       y2="1040.7275"
-       x2="87.78846"
-       y1="956.11218"
-       x1="19.038462"
-       gradientUnits="userSpaceOnUse"
-       id="linearGradient6803"
-       xlink:href="#linearGradient3798-9"
-       inkscape:collect="always" />
     <linearGradient
        id="linearGradient7482-1"
        osb:paint="solid">
@@ -277,28 +186,6 @@
          offset="0"
          id="stop7484-3" />
     </linearGradient>
-    <radialGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient7634"
-       id="radialGradient7532-7"
-       cx="284.99435"
-       cy="980.83246"
-       fx="284.99435"
-       fy="980.83246"
-       r="52.03336"
-       gradientTransform="matrix(1,0,0,0.95188315,115,47.194563)"
-       gradientUnits="userSpaceOnUse" />
-    <linearGradient
-       id="linearGradient7526-3">
-      <stop
-         style="stop-color:#9c0000;stop-opacity:1;"
-         offset="0"
-         id="stop7528-9" />
-      <stop
-         style="stop-color:#dc0000;stop-opacity:1;"
-         offset="1"
-         id="stop7530-5" />
-    </linearGradient>
     <linearGradient
        inkscape:collect="always"
        xlink:href="#linearGradient7482-3"
@@ -318,28 +205,6 @@
     </linearGradient>
     <radialGradient
        inkscape:collect="always"
-       xlink:href="#linearGradient7526-6"
-       id="radialGradient7532-3"
-       cx="284.99435"
-       cy="980.83246"
-       fx="284.99435"
-       fy="980.83246"
-       r="52.03336"
-       gradientTransform="matrix(1,0,0,0.94110328,230.039,66.266228)"
-       gradientUnits="userSpaceOnUse" />
-    <linearGradient
-       id="linearGradient7526-6">
-      <stop
-         style="stop-color:#9c0000;stop-opacity:1;"
-         offset="0"
-         id="stop7528-2" />
-      <stop
-         style="stop-color:#dc0000;stop-opacity:1;"
-         offset="1"
-         id="stop7530-0" />
-    </linearGradient>
-    <radialGradient
-       inkscape:collect="always"
        xlink:href="#linearGradient7634"
        id="radialGradient7673"
        gradientUnits="userSpaceOnUse"
@@ -351,10 +216,286 @@
        r="52.03336" />
     <radialGradient
        inkscape:collect="always"
-       xlink:href="#linearGradient7526-6"
+       xlink:href="#linearGradient7526"
        id="radialGradient7675"
        gradientUnits="userSpaceOnUse"
        gradientTransform="matrix(1,0,0,0.94110328,230.039,66.266228)"
+       cx="284.99435"
+       cy="980.83246"
+       fx="284.99435"
+       fy="980.83246"
+       r="52.03336" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3798"
+       id="linearGradient3088"
+       gradientUnits="userSpaceOnUse"
+       x1="19.038462"
+       y1="956.11218"
+       x2="87.78846"
+       y2="1040.7275" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3798"
+       id="linearGradient4584"
+       gradientUnits="userSpaceOnUse"
+       x1="19.038462"
+       y1="956.11218"
+       x2="87.78846"
+       y2="1040.7275" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3868"
+       id="linearGradient4595"
+       gradientUnits="userSpaceOnUse"
+       x1="120"
+       y1="1002.3622"
+       x2="160"
+       y2="1042.3622" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3798"
+       id="linearGradient4597"
+       gradientUnits="userSpaceOnUse"
+       x1="140"
+       y1="1051.2084"
+       x2="140"
+       y2="999.02887" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient7526"
+       id="radialGradient4604"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,0.95188315,285,-142.80543)"
+       cx="284.99435"
+       cy="980.83246"
+       fx="284.99435"
+       fy="980.83246"
+       r="52.03336" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient7526-6-7"
+       id="radialGradient7675-0"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,0.94110328,230.039,66.266228)"
+       cx="284.99435"
+       cy="980.83246"
+       fx="284.99435"
+       fy="980.83246"
+       r="52.03336" />
+    <linearGradient
+       id="linearGradient7526-6-7">
+      <stop
+         style="stop-color:#9c0000;stop-opacity:1;"
+         offset="0"
+         id="stop7528-2-1" />
+      <stop
+         style="stop-color:#dc0000;stop-opacity:1;"
+         offset="1"
+         id="stop7530-0-7" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient7482-3-7"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop7484-0-7" />
+    </linearGradient>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient7634-3"
+       id="radialGradient7673-3"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,0.95188315,115,47.194563)"
+       cx="284.99435"
+       cy="980.83246"
+       fx="284.99435"
+       fy="980.83246"
+       r="52.03336" />
+    <linearGradient
+       id="linearGradient7634-3">
+      <stop
+         id="stop7636-5"
+         offset="0"
+         style="stop-color:#ec0000;stop-opacity:1;" />
+      <stop
+         id="stop7638-9"
+         offset="1"
+         style="stop-color:#ff2d2d;stop-opacity:1;" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient7482-10-8"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop7484-3-1" />
+    </linearGradient>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient7526-2"
+       id="radialGradient4604-8"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,0.95188315,285,-142.80543)"
+       cx="284.99435"
+       cy="980.83246"
+       fx="284.99435"
+       fy="980.83246"
+       r="52.03336" />
+    <linearGradient
+       id="linearGradient7526-2">
+      <stop
+         style="stop-color:#9c0000;stop-opacity:1;"
+         offset="0"
+         id="stop7528-6" />
+      <stop
+         style="stop-color:#dc0000;stop-opacity:1;"
+         offset="1"
+         id="stop7530-6" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient7482-38"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop7484-01" />
+    </linearGradient>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient7526"
+       id="radialGradient3093"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,0.95188315,274.50388,-161.03553)"
+       cx="284.99435"
+       cy="980.83246"
+       fx="284.99435"
+       fy="980.83246"
+       r="52.03336" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient7526-7"
+       id="radialGradient7675-1"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,0.94110328,230.039,66.266228)"
+       cx="284.99435"
+       cy="980.83246"
+       fx="284.99435"
+       fy="980.83246"
+       r="52.03336" />
+    <linearGradient
+       id="linearGradient7526-7">
+      <stop
+         style="stop-color:#000178;stop-opacity:1;"
+         offset="0"
+         id="stop7528-4" />
+      <stop
+         style="stop-color:#4141ff;stop-opacity:1;"
+         offset="1"
+         id="stop7530-0" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient7482-3-4"
+       id="linearGradient7524-8-9"
+       gradientUnits="userSpaceOnUse"
+       x1="347.8439"
+       y1="968.30157"
+       x2="385.61047"
+       y2="968.30157" />
+    <linearGradient
+       id="linearGradient7482-3-4"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop7484-0-8" />
+    </linearGradient>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient7634-2"
+       id="radialGradient7673-8"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,0.95188315,115,47.194563)"
+       cx="284.99435"
+       cy="980.83246"
+       fx="284.99435"
+       fy="980.83246"
+       r="52.03336" />
+    <linearGradient
+       id="linearGradient7634-2">
+      <stop
+         id="stop7636-4"
+         offset="0"
+         style="stop-color:#0000f0;stop-opacity:1;" />
+      <stop
+         id="stop7638-5"
+         offset="1"
+         style="stop-color:#7d7dff;stop-opacity:1;" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient7482-10-1"
+       id="linearGradient7524-4-5"
+       gradientUnits="userSpaceOnUse"
+       x1="347.8439"
+       y1="968.30157"
+       x2="385.61047"
+       y2="968.30157" />
+    <linearGradient
+       id="linearGradient7482-10-1"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop7484-3-7" />
+    </linearGradient>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient7526-7"
+       id="radialGradient3093-1"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,0.95188315,274.50388,-161.03553)"
+       cx="284.99435"
+       cy="980.83246"
+       fx="284.99435"
+       fy="980.83246"
+       r="52.03336" />
+    <linearGradient
+       id="linearGradient3931">
+      <stop
+         style="stop-color:#9c0000;stop-opacity:1;"
+         offset="0"
+         id="stop3933" />
+      <stop
+         style="stop-color:#dc0000;stop-opacity:1;"
+         offset="1"
+         id="stop3935" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient7482-5"
+       id="linearGradient7524-1"
+       gradientUnits="userSpaceOnUse"
+       x1="347.8439"
+       y1="968.30157"
+       x2="385.61047"
+       y2="968.30157" />
+    <linearGradient
+       id="linearGradient7482-5"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop7484-27" />
+    </linearGradient>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient7526"
+       id="radialGradient4068"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,0.95188315,274.50388,-161.03553)"
        cx="284.99435"
        cy="980.83246"
        fx="284.99435"
@@ -368,9 +509,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.99999999"
-     inkscape:cx="259.61131"
-     inkscape:cy="82.577376"
+     inkscape:zoom="2.56"
+     inkscape:cx="632.84179"
+     inkscape:cy="248.66144"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -381,7 +522,8 @@
      inkscape:window-maximized="1"
      showguides="true"
      inkscape:guide-bbox="true"
-     inkscape:snap-global="true">
+     inkscape:snap-global="false"
+     inkscape:snap-bbox="true">
     <inkscape:grid
        type="xygrid"
        id="grid3018"
@@ -453,70 +595,74 @@
      inkscape:groupmode="layer"
      id="layer1">
     <g
-       id="g6780"
-       inkscape:export-filename="C:\Users\afrene\prive\haxe\sandbox\assets\system\stick_base.png"
+       id="g4586"
+       inkscape:export-filename="C:\Users\afrene\prive\haxe\hgf\assets\hgf\stick_base.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90">
       <path
-         transform="matrix(0.98181818,0,0,0.98181819,1,18.133849)"
+         transform="matrix(1.1160714,0,0,1.1160714,1.1160715,-123.30162)"
          d="m 110,997.36218 a 55,55 0 1 1 -110,0 55,55 0 1 1 110,0 z"
          sodipodi:ry="55"
          sodipodi:rx="55"
          sodipodi:cy="997.36218"
          sodipodi:cx="55"
          id="path3028"
-         style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:1.68809995000000000"
+         style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:2.68800007;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:1.68809995000000000"
          sodipodi:type="arc" />
       <path
-         transform="matrix(0.94545455,0,0,0.94545461,2,53.40151)"
+         transform="matrix(1.0727273,0,0,1.0727271,3,-80.535269)"
          d="m 110,997.36218 a 55,55 0 1 1 -110,0 55,55 0 1 1 110,0 z"
          sodipodi:ry="55"
          sodipodi:rx="55"
          sodipodi:cy="997.36218"
          sodipodi:cx="55"
          id="path3028-7"
-         style="fill:url(#linearGradient3835);fill-opacity:1.0;fill-rule:nonzero;stroke:none"
+         style="fill:url(#linearGradient4584);fill-opacity:1;fill-rule:nonzero;stroke:none"
          sodipodi:type="arc" />
     </g>
-    <path
-       sodipodi:type="arc"
-       style="fill:url(#linearGradient3866);fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       id="path3858"
-       sodipodi:cx="140"
-       sodipodi:cy="1022.3622"
-       sodipodi:rx="30"
-       sodipodi:ry="30"
-       d="m 170,1022.3622 a 30,30 0 1 1 -60,0 30,30 0 1 1 60,0 z"
-       transform="matrix(1.1310653,0,0,1.1310653,-13.419442,-138.92582)"
-       inkscape:export-filename="C:\Users\afrene\prive\haxe\sandbox\assets\system\stick.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
-    <path
-       sodipodi:type="arc"
-       style="fill:url(#linearGradient3894);fill-opacity:1;fill-rule:nonzero;stroke:none"
-       id="path3858-0"
-       sodipodi:cx="140"
-       sodipodi:cy="1022.3622"
-       sodipodi:rx="30"
-       sodipodi:ry="30"
-       d="m 170,1022.3622 a 30,30 0 1 1 -60,0 30,30 0 1 1 60,0 z"
-       transform="matrix(1.0530607,0,0,1.0530607,-2.4988104,-59.176938)"
-       inkscape:export-filename="C:\Users\afrene\prive\haxe\sandbox\assets\system\stick.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
-    <path
-       sodipodi:type="arc"
-       style="fill:url(#pattern6771);fill-opacity:1;fill-rule:nonzero;stroke:none"
-       id="path3929"
-       sodipodi:cx="220"
-       sodipodi:cy="1037.3622"
-       sodipodi:rx="25"
-       sodipodi:ry="25"
-       d="m 245,1037.3622 a 25,25 0 1 1 -50,0 25,25 0 1 1 50,0 z"
-       transform="matrix(1.2636728,0,0,1.2636728,-133.07834,-293.45389)"
-       inkscape:export-filename="C:\Users\afrene\prive\haxe\sandbox\assets\system\stick.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+    <g
+       id="g4590"
+       transform="translate(-71.528811,-1.6549205)">
+      <path
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\afrene\prive\haxe\sandbox\assets\system\stick.png"
+         transform="matrix(1.1310653,0,0,1.1310653,78.242693,-127.40431)"
+         d="m 170,1022.3622 c 0,16.5685 -13.43146,30 -30,30 -16.56854,0 -30,-13.4315 -30,-30 0,-16.5686 13.43146,-30.00002 30,-30.00002 16.56854,0 30,13.43142 30,30.00002 z"
+         sodipodi:ry="30"
+         sodipodi:rx="30"
+         sodipodi:cy="1022.3622"
+         sodipodi:cx="140"
+         id="path3858"
+         style="fill:url(#linearGradient4595);fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         sodipodi:type="arc" />
+      <path
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\afrene\prive\haxe\sandbox\assets\system\stick.png"
+         transform="matrix(1.0530607,0,0,1.0530607,89.163323,-47.655432)"
+         d="m 170,1022.3622 c 0,16.5685 -13.43146,30 -30,30 -16.56854,0 -30,-13.4315 -30,-30 0,-16.5686 13.43146,-30.00002 30,-30.00002 16.56854,0 30,13.43142 30,30.00002 z"
+         sodipodi:ry="30"
+         sodipodi:rx="30"
+         sodipodi:cy="1022.3622"
+         sodipodi:cx="140"
+         id="path3858-0"
+         style="fill:url(#linearGradient4597);fill-opacity:1;fill-rule:nonzero;stroke:none"
+         sodipodi:type="arc" />
+      <path
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\afrene\prive\haxe\sandbox\assets\system\stick.png"
+         transform="matrix(1.2636728,0,0,1.2636728,-41.416204,-281.93239)"
+         d="m 245,1037.3622 c 0,13.8071 -11.19288,25 -25,25 -13.80712,0 -25,-11.1929 -25,-25 0,-13.8071 11.19288,-25 25,-25 13.80712,0 25,11.1929 25,25 z"
+         sodipodi:ry="25"
+         sodipodi:rx="25"
+         sodipodi:cy="1037.3622"
+         sodipodi:cx="220"
+         id="path3929"
+         style="fill:url(#pattern6771);fill-opacity:1;fill-rule:nonzero;stroke:none"
+         sodipodi:type="arc" />
+    </g>
     <rect
        style="fill:none;stroke:none"
        width="3"
@@ -528,21 +674,18 @@
        style="fill:url(#pattern6784);stroke:none"
        width="5"
        height="5"
-       x="144"
-       y="948.36218"
+       x="350"
+       y="957.36218"
        id="rect6778" />
     <g
-       id="g7640"
-       inkscape:export-filename="C:\Users\afrene\prive\haxe\sandbox\assets\system\button_a.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90">
+       id="g3896">
       <rect
          inkscape:export-ydpi="90"
          inkscape:export-xdpi="90"
          inkscape:export-filename="C:\Users\afrene\prive\haxe\sandbox\assets\system\button_a.png"
-         ry="30"
-         y="933.36218"
-         x="230"
+         ry="39"
+         y="725.13208"
+         x="504.50388"
          height="110"
          width="110"
          id="rect6864-3"
@@ -551,9 +694,9 @@
          inkscape:export-ydpi="90"
          inkscape:export-xdpi="90"
          inkscape:export-filename="C:\Users\afrene\prive\haxe\sandbox\assets\system\button_a.png"
-         ry="28.121321"
-         y="931.36218"
-         x="232.88388"
+         ry="36"
+         y="723.13208"
+         x="507.38779"
          height="109.02773"
          width="104.19931"
          id="rect6864-3-4"
@@ -562,9 +705,9 @@
          inkscape:export-ydpi="90"
          inkscape:export-xdpi="90"
          inkscape:export-filename="C:\Users\afrene\prive\haxe\sandbox\assets\system\button_a.png"
-         ry="27.549946"
-         y="931.3457"
-         x="232.961"
+         ry="36.016479"
+         y="723.1156"
+         x="507.46487"
          height="101.01646"
          width="104.02253"
          id="rect6864-3-4-2"
@@ -573,18 +716,18 @@
          inkscape:export-ydpi="90"
          inkscape:export-xdpi="90"
          inkscape:export-filename="C:\Users\afrene\prive\haxe\sandbox\assets\system\button_a.png"
-         ry="27.016191"
-         y="931.3028"
-         x="232.961"
+         ry="36.059387"
+         y="723.07269"
+         x="507.46487"
          height="99.059357"
          width="104.06672"
          id="rect6864-3-4-2-2"
-         style="fill:url(#radialGradient7532);fill-opacity:1.0;fill-rule:nonzero;stroke:none" />
+         style="fill:url(#radialGradient4068);fill-opacity:1;fill-rule:nonzero;stroke:none" />
       <flowRoot
          inkscape:export-ydpi="90"
          inkscape:export-xdpi="90"
          inkscape:export-filename="C:\Users\afrene\prive\haxe\sandbox\assets\system\button_a.png"
-         transform="translate(-81.75,11.668276)"
+         transform="translate(192.75388,-196.56182)"
          style="font-size:10px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Sans"
          id="flowRoot6938"
          xml:space="preserve"><flowRegion
@@ -600,15 +743,15 @@
            id="flowPara6944">A</flowPara></flowRoot>    </g>
     <g
        id="g7651"
-       transform="translate(-5,0)"
-       inkscape:export-filename="C:\Users\afrene\prive\haxe\sandbox\assets\system\button_a.png"
+       transform="translate(269.50388,-208.2301)"
+       inkscape:export-filename="C:\Users\afrene\prive\haxe\hgf\assets\hgf\button_a.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90">
       <rect
          inkscape:export-ydpi="90"
          inkscape:export-xdpi="90"
          inkscape:export-filename="C:\Users\afrene\prive\haxe\sandbox\assets\system\button_a.png"
-         ry="30"
+         ry="39"
          y="933.36218"
          x="345"
          height="110"
@@ -619,7 +762,7 @@
          inkscape:export-ydpi="90"
          inkscape:export-xdpi="90"
          inkscape:export-filename="C:\Users\afrene\prive\haxe\sandbox\assets\system\button_a.png"
-         ry="28.121321"
+         ry="36"
          y="931.36218"
          x="347.88388"
          height="109.02773"
@@ -630,7 +773,7 @@
          inkscape:export-ydpi="90"
          inkscape:export-xdpi="90"
          inkscape:export-filename="C:\Users\afrene\prive\haxe\sandbox\assets\system\button_a.png"
-         ry="27.549946"
+         ry="36.016479"
          y="931.3457"
          x="347.961"
          height="101.01646"
@@ -641,7 +784,7 @@
          inkscape:export-ydpi="90"
          inkscape:export-xdpi="90"
          inkscape:export-filename="C:\Users\afrene\prive\haxe\sandbox\assets\system\button_a.png"
-         ry="27.016191"
+         ry="36.059387"
          y="931.3028"
          x="347.961"
          height="99.059357"
@@ -668,18 +811,18 @@
            id="flowPara6944-1">A</flowPara></flowRoot>    </g>
     <g
        id="g7662"
-       transform="translate(-10.039001,-1)"
-       inkscape:export-filename="C:\Users\afrene\prive\haxe\sandbox\assets\system\button_a.png"
+       transform="translate(264.46488,-209.2301)"
+       inkscape:export-filename="C:\Users\afrene\prive\haxe\hgf\assets\hgf\button_a.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90">
       <rect
          inkscape:export-ydpi="90"
          inkscape:export-xdpi="90"
          inkscape:export-filename="C:\Users\afrene\prive\haxe\sandbox\assets\system\button_a.png"
-         ry="30"
-         y="934.36218"
+         ry="37"
+         y="936.36218"
          x="460.039"
-         height="110"
+         height="108"
          width="110"
          id="rect6864-3-8"
          style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none" />
@@ -687,7 +830,7 @@
          inkscape:export-ydpi="90"
          inkscape:export-xdpi="90"
          inkscape:export-filename="C:\Users\afrene\prive\haxe\sandbox\assets\system\button_a.png"
-         ry="26.331944"
+         ry="34.1875"
          y="939.29968"
          x="462.92288"
          height="102.09023"
@@ -698,7 +841,7 @@
          inkscape:export-ydpi="90"
          inkscape:export-xdpi="90"
          inkscape:export-filename="C:\Users\afrene\prive\haxe\sandbox\assets\system\button_a.png"
-         ry="27.549946"
+         ry="33.953979"
          y="939.2832"
          x="463"
          height="101.01646"
@@ -709,7 +852,7 @@
          inkscape:export-ydpi="90"
          inkscape:export-xdpi="90"
          inkscape:export-filename="C:\Users\afrene\prive\haxe\sandbox\assets\system\button_a.png"
-         ry="26.710239"
+         ry="34.125"
          y="940.36218"
          x="463"
          height="97.937531"
@@ -734,5 +877,206 @@
              id="rect6942-5" /></flowRegion><flowPara
            style="font-size:65px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;font-family:Playtime With Hot Toddies;-inkscape-font-specification:Playtime With Hot Toddies"
            id="flowPara6944-8">A</flowPara></flowRoot>    </g>
+    <g
+       transform="translate(-5.486414,140.67728)"
+       id="g3896-6">
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\afrene\prive\haxe\sandbox\assets\system\button_a.png"
+         ry="39"
+         y="725.13208"
+         x="504.50388"
+         height="110"
+         width="110"
+         id="rect6864-3-1"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\afrene\prive\haxe\sandbox\assets\system\button_a.png"
+         ry="36"
+         y="723.13208"
+         x="507.38779"
+         height="109.02773"
+         width="104.19931"
+         id="rect6864-3-4-42"
+         style="fill:#0000b5;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\afrene\prive\haxe\sandbox\assets\system\button_a.png"
+         ry="36.016479"
+         y="723.1156"
+         x="507.46487"
+         height="101.01646"
+         width="104.02253"
+         id="rect6864-3-4-2-3"
+         style="fill:#6969ff;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\afrene\prive\haxe\sandbox\assets\system\button_a.png"
+         ry="36.059387"
+         y="723.07269"
+         x="507.46487"
+         height="99.059357"
+         width="104.06672"
+         id="rect6864-3-4-2-2-2"
+         style="fill:url(#radialGradient3093-1);fill-opacity:1;fill-rule:nonzero;stroke:none" />
+      <flowRoot
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\afrene\prive\haxe\sandbox\assets\system\button_a.png"
+         transform="translate(192.75388,-196.56182)"
+         style="font-size:10px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Sans"
+         id="flowRoot6938-2"
+         xml:space="preserve"><flowRegion
+           style="fill:url(#linearGradient7524-1);fill-opacity:1"
+           id="flowRegion6940-1"><rect
+             style="text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1"
+             y="931.03766"
+             x="311.75"
+             height="90"
+             width="110"
+             id="rect6942-6" /></flowRegion><flowPara
+           style="font-size:65px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;font-family:Playtime With Hot Toddies;-inkscape-font-specification:Playtime With Hot Toddies"
+           id="flowPara6944-85">B</flowPara></flowRoot>    </g>
+    <g
+       id="g7651-7"
+       transform="translate(264.01746,-67.552827)"
+       inkscape:export-filename="C:\Users\afrene\prive\haxe\hgf\assets\hgf\button_a.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\afrene\prive\haxe\sandbox\assets\system\button_a.png"
+         ry="39"
+         y="933.36218"
+         x="345"
+         height="110"
+         width="110"
+         id="rect6864-3-7-6"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\afrene\prive\haxe\sandbox\assets\system\button_a.png"
+         ry="36"
+         y="931.36218"
+         x="347.88388"
+         height="109.02773"
+         width="104.19931"
+         id="rect6864-3-4-20-1"
+         style="fill:#0707ff;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\afrene\prive\haxe\sandbox\assets\system\button_a.png"
+         ry="36.016479"
+         y="931.3457"
+         x="347.961"
+         height="101.01646"
+         width="104.02253"
+         id="rect6864-3-4-2-28-8"
+         style="fill:#6969ff;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\afrene\prive\haxe\sandbox\assets\system\button_a.png"
+         ry="36.059387"
+         y="931.3028"
+         x="347.961"
+         height="99.059357"
+         width="104.06672"
+         id="rect6864-3-4-2-2-6-9"
+         style="fill:url(#radialGradient7673-8);fill-opacity:1;fill-rule:nonzero;stroke:none" />
+      <flowRoot
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\afrene\prive\haxe\sandbox\assets\system\button_a.png"
+         transform="translate(33.25,11.668273)"
+         style="font-size:10px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Sans"
+         id="flowRoot6938-7-2"
+         xml:space="preserve"><flowRegion
+           style="fill:url(#linearGradient7524-4-5);fill-opacity:1"
+           id="flowRegion6940-0-7"><rect
+             style="text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1"
+             y="931.03766"
+             x="311.75"
+             height="90"
+             width="110"
+             id="rect6942-8-9" /></flowRegion><flowPara
+           style="font-size:65px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;font-family:Playtime With Hot Toddies;-inkscape-font-specification:Playtime With Hot Toddies"
+           id="flowPara6944-1-5">B</flowPara></flowRoot>    </g>
+    <g
+       id="g7662-4"
+       transform="translate(258.97846,-68.552827)"
+       inkscape:export-filename="C:\Users\afrene\prive\haxe\hgf\assets\hgf\button_a.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\afrene\prive\haxe\sandbox\assets\system\button_a.png"
+         ry="37"
+         y="936.36218"
+         x="460.039"
+         height="108"
+         width="110"
+         id="rect6864-3-8-3"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\afrene\prive\haxe\sandbox\assets\system\button_a.png"
+         ry="34.1875"
+         y="939.29968"
+         x="462.92288"
+         height="102.09023"
+         width="104.19931"
+         id="rect6864-3-4-4-1"
+         style="fill:#0000b5;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\afrene\prive\haxe\sandbox\assets\system\button_a.png"
+         ry="33.953979"
+         y="939.2832"
+         x="463"
+         height="101.01646"
+         width="104.02253"
+         id="rect6864-3-4-2-1-2"
+         style="fill:#6969ff;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\afrene\prive\haxe\sandbox\assets\system\button_a.png"
+         ry="34.125"
+         y="940.36218"
+         x="463"
+         height="97.937531"
+         width="104.06672"
+         id="rect6864-3-4-2-2-8-3"
+         style="fill:url(#radialGradient7675-1);fill-opacity:1;fill-rule:nonzero;stroke:none" />
+      <flowRoot
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="C:\Users\afrene\prive\haxe\sandbox\assets\system\button_a.png"
+         transform="translate(148.289,19.605772)"
+         style="font-size:10px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Sans"
+         id="flowRoot6938-3-3"
+         xml:space="preserve"><flowRegion
+           style="fill:url(#linearGradient7524-8-9);fill-opacity:1"
+           id="flowRegion6940-7-4"><rect
+             style="text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1"
+             y="931.03766"
+             x="311.75"
+             height="90"
+             width="110"
+             id="rect6942-5-1" /></flowRegion><flowPara
+           style="font-size:65px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;font-family:Playtime With Hot Toddies;-inkscape-font-specification:Playtime With Hot Toddies"
+           id="flowPara6944-8-1">B</flowPara></flowRoot>    </g>
   </g>
 </svg>
